@@ -35,4 +35,13 @@ services:
 
   - name: "Expert"
     icon: "fas fa-user-astronaut"
+    items:
+      - name: "OpenDNS Security Ninjas"
+        type: Ping
+        method: "head"
+        logo: "/assets/icons/ninja.png"
+        subtitle: "OpenDNS Security Ninjas"
+        tag: "penetration testing"
+        url: "http://localhost:1000/securityninjas/"
+        target: "_blank"
     
