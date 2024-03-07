@@ -1,0 +1,38 @@
+title: "Hackers Lab"
+subtitle: "Personal Penetration Testing Lab"
+logo: "https://cdn-icons-png.freepik.com/512/3518/3518775.png?filename=hacker_3518775.png&fd=1"
+header: true
+footer: '<span>Created by <a href="https://src-portfolio.oderna.in/" target="_blank">Subhomoy Roy Choudhury</a></span> .<span>Connect with me on <a href="https://github.com/subhomoy-roy-choudhury" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/subhomoy-roy-choudhury/" target="_blank">LinkedIn</a></span>'
+links:
+  - name: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/subhomoy-roy-choudhury/pentest-lab"
+    target: "_blank" # optional html tag target attribute
+services:
+  - name: "Beginner"
+    icon: "fas fa-child"
+    items:
+      - name: "bWAPP"
+        type: Ping
+        method: "head"
+        logo: "https://cdn-icons-png.freepik.com/512/809/809154.png?filename=bee_809154.png&fd=1"
+        subtitle: "buggy web application"
+        tag: "penetration testing"
+        url: "http://localhost:1000/bwapp/"
+        target: "_blank"
+
+      - name: "DVWA"
+        type: Ping
+        method: "head"
+        logo: "/assets/icons/dvwa.png"
+        subtitle: "Damn Vulnerable Web Appliaction"
+        tag: "penetration testing"
+        url: "http://localhost:1000/dvwa/"
+        target: "_blank"
+
+  - name: "Intermediate"
+    icon: "fas fa-user-graduate"
+
+  - name: "Expert"
+    icon: "fas fa-user-astronaut"
+    
