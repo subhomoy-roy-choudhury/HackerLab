@@ -50,7 +50,17 @@ services:
     networks:
       - pentestlab
     restart: unless-stopped
-    
+
+  juiceshop:
+    container_name: pentestlab-juiceshop
+    image: bkimminich/juice-shop
+    platform: linux/amd64
+    ports:
+      - 1004:3000
+    networks:
+      - pentestlab
+    restart: unless-stopped
+
 networks:
   pentestlab:
     driver: bridge

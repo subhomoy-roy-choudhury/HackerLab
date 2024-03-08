@@ -27,14 +27,11 @@ services:
         logo: "/assets/icons/dvwa.png"
         subtitle: "Damn Vulnerable Web Appliaction"
         tag: "penetration testing"
-        url: "http://localhost:1000/dvwa/"
+        url: "http://localhost:1000/dvwa"
         target: "_blank"
 
   - name: "Intermediate"
     icon: "fas fa-user-graduate"
-
-  - name: "Expert"
-    icon: "fas fa-user-astronaut"
     items:
       - name: "OpenDNS Security Ninjas"
         type: Ping
@@ -44,4 +41,17 @@ services:
         tag: "penetration testing"
         url: "http://localhost:1000/securityninjas/"
         target: "_blank"
+
+  - name: "Expert"
+    icon: "fas fa-user-astronaut"
+    items:
+      - name: "OWASP Juice Shop"
+        type: Ping
+        method: "head"
+        logo: "/assets/icons/juiceshop.png"
+        subtitle: "OWASP Juice Shop"
+        tag: "penetration testing"
+        url: "http://localhost:1000/juiceshop/"
+        target: "_blank"
+
     
