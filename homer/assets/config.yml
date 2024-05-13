@@ -24,7 +24,7 @@ services:
       - name: "DVWA"
         type: Ping
         method: "head"
-        logo: "/assets/icons/dvwa.png"
+        logo: "http://localhost:1000/home/assets/icons/dvwa.png"
         subtitle: "Damn Vulnerable Web Appliaction"
         tag: "penetration testing"
         url: "http://localhost:1000/dvwa"
@@ -36,7 +36,7 @@ services:
       - name: "OpenDNS Security Ninjas"
         type: Ping
         method: "head"
-        logo: "/assets/icons/ninja.png"
+        logo: "http://localhost:1000/home/assets/icons/ninja.png"
         subtitle: "OpenDNS Security Ninjas"
         tag: "penetration testing"
         url: "http://localhost:1000/securityninjas/"
@@ -48,7 +48,7 @@ services:
       - name: "OWASP Juice Shop"
         type: Ping
         method: "head"
-        logo: "/assets/icons/juiceshop.png"
+        logo: "http://localhost:1000/home/assets/icons/juiceshop.png"
         subtitle: "OWASP Juice Shop"
         tag: "penetration testing"
         url: "http://localhost:1000/juiceshop/"
